@@ -1,0 +1,26 @@
+---
+- name: git 뿌리기
+  gather_facts: yes
+  become: yes
+  hosts: all
+
+  task:
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   - name: git 복사
+     git:
+       repo: https://github.com/myeonghyun-7011/ansiblelab3.git
+       dest: /root/git/
+   
